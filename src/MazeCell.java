@@ -51,8 +51,4 @@ public class MazeCell {
     public void setWall(boolean wall) {
         this.isWall = wall;
     }
-
-    public boolean equals(MazeCell other) {
-        return this.row == other.row && this.col == other.col;
-    }
 }
